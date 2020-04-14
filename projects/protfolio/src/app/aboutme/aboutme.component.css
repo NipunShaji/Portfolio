@@ -1,0 +1,25 @@
+.main{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/images/aboutmeMain.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 4vmax;
+}
+.text{
+  background: none;
+  height: 100%;
+  widht: 100%;
+}
+.buttons{
+  width: 100%;
+  padding-top: 5%;
+}
+button{
+  padding: 10px;
+  border: 3px solid #fff;
+  color: #fff;
+  background: none;
+  font-size: 1vmax;
+}
