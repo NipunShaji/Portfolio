@@ -4,21 +4,23 @@
       <mat-icon id="backArrow" routerLink="/" >arrow_back</mat-icon>
       <div id="navText" >My Projects</div>
     </div>
-    <div class="right" fxFlex="60">
-      Nav links
+    <div class="right" fxFlex="60" fxLayout="row" fxLayoutAlign="end center" >
+      <div matTooltip="More details on projects" >
+        <mat-icon id="more" >error_outline</mat-icon>
+      </div>
     </div>
   </div>
   <div class="items" fxLayout="row wrap" fxLayoutAlign="start start">
     <div class="item" fxLayout="column" fxLayoutAlign="center center" >
-      <img src="../../assets/images/snakenew.svg" >
+      <img src="../../assets/images/snakenew.svg" class="icons" >
       <p>Snake</p>
     </div>
     <div class="item" fxLayout="column" fxLayoutAlign="center center" >
-      <img src="../../assets/images/tetrisnew.svg" >
+      <img src="../../assets/images/tetrisnew.svg" class="icons" >
       <p>Tetris</p>
     </div>
     <div class="item" fxLayout="column" fxLayoutAlign="center center" >
-      <img src="../../assets/images/tetrisnew.svg" >
+      <img src="../../assets/images/password.svg" class="icons" >
       <p>Password Manager</p>
     </div>
   </div>

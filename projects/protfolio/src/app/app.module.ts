@@ -9,7 +9,10 @@ import { ProjectsComponent } from './projects/projects.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatIconModule } from '@angular/material';
+import {
+         MatIconModule,
+         MatTooltipModule
+       } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,8 @@ import { MatIconModule } from '@angular/material';
     AppRoutingModule,
     FlexLayoutModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
